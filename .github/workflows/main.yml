@@ -17,7 +17,7 @@ jobs:
       - run: flutter config --enable-web
       - run: |
           cd app/
-          flutter pub get
+          #flutter pub get
           flutter build web --release
           cd build/web
           git init
