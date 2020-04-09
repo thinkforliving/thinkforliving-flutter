@@ -1,6 +1,6 @@
 {
-    "name": "myapp",
-    "short_name": "myapp",
+    "name": "app",
+    "short_name": "app",
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",
