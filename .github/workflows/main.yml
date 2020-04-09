@@ -18,11 +18,8 @@ jobs:
       - run: |
           cd app/
           flutter pub get
-      - run: |
-          cd app/
           flutter build web --release
-      - run: |
-          cd app/build/web
+          cd build/web
           git init
           git config --global user.email shardul.srivastava007@gmail.com
           git config --global user.name "Shardul Srivastava"
