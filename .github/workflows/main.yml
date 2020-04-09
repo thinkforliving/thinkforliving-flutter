@@ -13,11 +13,12 @@ jobs:
       - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1.2.0
         with:
-          flutter-version: 'v1.15.17'
+          flutter-version: '1.17.0-dev.3.1'
           channel: 'beta'
       - run: flutter config --enable-web
       - run: |
           cd app/
+          flutter --version
           flutter build web --release
           cd build/web
           git init
